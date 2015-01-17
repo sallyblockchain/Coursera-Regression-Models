@@ -24,7 +24,7 @@ summary(fit)
 
 # Problem 5.
 data(mtcars)
-predict(fit,data.frame(x=mean(3)), interval="prediction")
+predict(fit, data.frame(x=mean(3)), interval="prediction")
 # upr: 27.57355
 
 # Problem 6.
